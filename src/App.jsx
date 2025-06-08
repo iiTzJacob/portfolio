@@ -4,7 +4,7 @@ import Home from './pages/Home'
 
 function App() {
   return (
-    <div>
+    <div className='bg-mainbg min-h-screen'>
       <Home />
     </div>
   )
