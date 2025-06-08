@@ -5,13 +5,3 @@
     --color-mainbg: #5A5F69;
     --color-offwhite: #F8F8F8;
 }
-
-@theme: {
-    extend: {
-        boxShadow: {
-            'glow': '0 0 8px rgba(59, 130, 246, 0.5)', // Soft blue glow
-            'glow-sm': '0 0 4px rgba(59, 130, 246, 0.3)', // Subtle glow
-            'glow-lg': '0 0 12px rgba(59, 130, 246, 0.7)', // Stronger glow
-        }
-    }
-}

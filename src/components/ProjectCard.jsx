@@ -5,7 +5,7 @@ function ProjectCard() {
     return (
         <div className='grid gap-6 md:grid-cols-2'>
             {projects.map((project, index) => (
-                <div className='m-6 bg-cardbg rounded-lg shadow-glow' key={index}>
+                <div className='m-6 bg-cardbg rounded-lg shadow-2xl' key={index}>
                     <div className='m-2'>
 
                         <div className="mt-1 font-bold text-offwhite">
